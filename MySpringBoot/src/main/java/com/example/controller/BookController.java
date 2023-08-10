@@ -1,8 +1,11 @@
 package com.example.controller;
 
+import com.example.bean.Book;
 import com.example.bean.Enterprise;
 import com.example.bean.User;
+
 import com.example.mapper.UserDao;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;
@@ -15,7 +18,11 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/books")
+@Slf4j
 public class BookController {
+
+//    @Autowired
+//    private BookDao bookDao;
 
     @Autowired
     private UserDao userDao;
@@ -42,18 +49,20 @@ public class BookController {
      * 通过 @PathVariable 可以将 URL 中占位符参数绑定到控制器处理方法的入参中:URL 中的 {xxx} 占位符可以通过
      * */
 
-    @GetMapping("/{word}")
-    public String getById(@PathVariable("name") String word){
-        System.out.println("SpringBoot Learn");
-        System.out.println(environment.getProperty("lesson"));
+    @GetMapping("/{word}/{id}")
+    public String getById(@PathVariable("name") String word,String id){
+        log.info("SpringBoot Learn");
+        log.info(environment.getProperty("lesson"));
         return "SpringBoot Learn";
     }
     @GetMapping("/{id}")
-    public String getById2(@PathVariable("id") String name){
-        System.out.println(environment.getProperty("enterprise.subject[1]"));
-        System.out.println(enterprise.getName());
+    public List<User> getById2(@PathVariable("id") String name){
+        log.info(environment.getProperty("enterprise.subject[1]"));
+        log.info(enterprise.getName());
         List<User> all = userDao.getALL();
-        System.out.println(all);
-        return "SpringName";
+        return all;
     }
+
+
+
 }

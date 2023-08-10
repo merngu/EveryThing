@@ -9,6 +9,6 @@ import java.util.List;
 
 @Mapper
 public interface UserDao {
-    @Select("select id from user")
+    @Select("select * from user")
     public List<User> getALL();
 }
