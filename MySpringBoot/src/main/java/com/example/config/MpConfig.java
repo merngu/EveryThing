@@ -2,10 +2,26 @@ package com.example.config;
 
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerInterceptor;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
+import com.example.bean.User;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
+import org.springframework.context.annotation.*;
 
-@Configuration
+/**
+ * 1. 配置类 使用@Bean 标注注册组件 默认是单实例的
+ * 2. 配置类本身就是组件
+ * 3. proxyBeanMethods 代理bean方法
+ *    最佳实战：
+ *    3.1 配置类组件之间无依赖关系用Lite模式加速容器启动过程，减少判断
+ *    3.2 配置类组件之间有依赖关系，方法会被调用得到之前单实例组件，用Full模式
+ * 4. @Import(User.class)
+ *       给容器中自动创建出这两个类型的组件，默认组件的名字就是全类名
+ *
+ *   Ctrl + h 显示 派生注解
+ * 5. @ImportResource 导入配置文件让配置文件生效
+ */
+
+@Import(User.class)
+@Configuration(proxyBeanMethods = false) // true 表名是一个bean，false不是一个
 public class MpConfig {
 
     /**
@@ -19,10 +35,20 @@ public class MpConfig {
      * */
 
 
+    /*
+    * 外部无论对配置类中的这个组件注册方法调用多少次获取的都是之前注册容器中的单实例对象
+    * */
     @Bean
     public MybatisPlusInterceptor mybatisPlusInterceptor(){
         MybatisPlusInterceptor mybatisPlusInterceptor = new MybatisPlusInterceptor();
         mybatisPlusInterceptor.addInnerInterceptor(new PaginationInnerInterceptor());
         return mybatisPlusInterceptor;
     }
+
+    @Bean
+    @ConditionalOnBean(type = "" )
+    public User user(){
+        return new User();
+    }
+
 }

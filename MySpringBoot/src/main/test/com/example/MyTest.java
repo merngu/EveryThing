@@ -44,6 +44,7 @@ public class MyTest {
     public void testGetPage(){
         IPage page = new Page(1, 5);
         LambdaQueryWrapper<Book> bookLambdaQueryWrapper = new LambdaQueryWrapper<>();
-        bookDao.selectPage(page,null);
+        bookLambdaQueryWrapper.like(Book::getName, "A");
+        bookDao.selectPage(page,bookLambdaQueryWrapper);
     }
 }

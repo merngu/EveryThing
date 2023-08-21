@@ -9,7 +9,9 @@
 		<module>MySpringBoot</module>
 		<module>MyDataStrunt</module>
 		<module>MyDesign</module>
-	</modules>
+        <module>MyEE</module>
+        <module>HomeWork</module>
+    </modules>
 	<name>EveryThing</name>
 	<description>我的学习文件夹</description>
 	<packaging>pom</packaging>
