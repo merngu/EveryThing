@@ -53,3 +53,8 @@ users2: [ { name:Tom , age:4 } , { name:Jerry , age:5 } ] #对象数组缩略格
 mybatis-plus:
    configuration:
       log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+dbapi:
+  api:
+    context: api

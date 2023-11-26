@@ -11,8 +11,12 @@
 		<module>MyDesign</module>
         <module>MyEE</module>
         <module>HomeWork</module>
-    </modules>
+        <module>MySpringBoot2</module>
+		<module>FlinkTutorial</module>
+		<module>algo</module>
+	</modules>
 	<name>EveryThing</name>
 	<description>我的学习文件夹</description>
 	<packaging>pom</packaging>
+
 </project>
