@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.example.bean.Person",
+      "sourceType": "com.example.bean.Person"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

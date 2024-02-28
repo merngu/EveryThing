@@ -1,0 +1,60 @@
+lesson: springboot
+
+server:
+  port: 8080
+
+# 关闭运行日志图标
+spring:
+  main:
+    banner-mode: console
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=UTC&useSSL=false
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+
+#对象数组缩略格式
+# SpringBoot配置文件加载顺序
+# application.properties > application.yml > application.yaml
+
+subject:
+  - Java
+  - 前端
+  - 大数据
+
+enterprise:
+  name: itcast
+  age: 16
+  subject:
+    - Java
+    - 前端
+    - 大数据
+
+likes: [王者荣耀,刺激战场] #数组书写缩略格式
+
+users:          #对象数组格式
+  - name: Tom
+    age: 4
+  - name: Jerry
+    age: 5
+
+          #对象数组格式 2
+  -
+    name: Tom2
+    age: 4
+  -
+    name: Jerry2
+    age: 5
+
+users2: [ { name:Tom , age:4 } , { name:Jerry , age:5 } ] #对象数组缩略格式
+
+# 开启mysql日志
+mybatis-plus:
+   configuration:
+      log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+dbapi:
+  api:
+    context: api
