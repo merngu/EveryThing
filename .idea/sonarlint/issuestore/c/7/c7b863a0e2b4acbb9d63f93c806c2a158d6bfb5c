@@ -1,0 +1,9 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ›
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ›
+j	java:S116"URename this field "SEASONNAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ι¤ψ
+o	java:S116"URename this field "SEASONDESC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ήεω“ϋÿÿÿÿ
+D
+java:S1068".Remove this unused "SEASONNAME" private field.(ι¤ψ
+I
+java:S1068".Remove this unused "SEASONDESC" private field.(Ήεω“ϋÿÿÿÿ

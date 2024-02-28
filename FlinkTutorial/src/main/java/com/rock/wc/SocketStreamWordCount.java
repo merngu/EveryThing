@@ -14,7 +14,7 @@ public class SocketStreamWordCount {
 
 //        DataStreamSource<String> stringDataStreamSource = executionEnvironment.readTextFile("/media/ubuntu/mycode/EveryThing/FlinkTutorial/src/main/resources/words.txt");
 
-        DataStreamSource<String> stringDataStreamSource = executionEnvironment.socketTextStream("127.0.0.1", 9999);
+        DataStreamSource<String> stringDataStreamSource = executionEnvironment.socketTextStream("127.0.0.1", 7777);
         SingleOutputStreamOperator<Tuple2<String, Long>> sum = stringDataStreamSource.flatMap((String s, Collector<Tuple2<String, Long>> collector) -> {
 
                         String[] strings = s.split(" ");

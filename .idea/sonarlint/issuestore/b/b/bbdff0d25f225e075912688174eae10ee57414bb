@@ -1,0 +1,13 @@
+
+I
+java:S1172",Remove this unused method parameter "table".(õ–¾Î8…Çş€§1
+L
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ˆÇş€§1
+u
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8ˆÇş€§1
+`
+java:S1128"CRemove this unused import 'org.springframework.stereotype.Service'.(¼º¡Ú8ˆÇş€§1
+V
+java:S1128"9Remove this unused import 'org.thymeleaf.TemplateEngine'.(Ç×Óô8ˆÇş€§1
+\
+java:S1128":Remove this unused import 'org.thymeleaf.context.Context'.(°±‡üÿÿÿÿ8ˆÇş€§1

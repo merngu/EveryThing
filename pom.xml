@@ -14,7 +14,8 @@
         <module>MySpringBoot2</module>
 		<module>FlinkTutorial</module>
 		<module>algo</module>
-	</modules>
+        <module>ScalaDemo</module>
+    </modules>
 	<name>EveryThing</name>
 	<description>我的学习文件夹</description>
 	<packaging>pom</packaging>

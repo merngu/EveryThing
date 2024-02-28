@@ -1,0 +1,13 @@
+
+c
+java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(†·Ûq
+f
+java:S1104"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾
+i
+java:S1104"TMake nickname a static final constant or non-public and provide accessors if needed.(ÔÀª\
+k
+java:S1104	"PMake next a static final constant or non-public and provide accessors if needed.(©“Îøÿÿÿÿ
+b
+java:S1858"G"name" is already a string, there's no need to call "toString()" on it.(ÊŸ¡™ıÿÿÿÿ
+f
+java:S1858"K"nickname" is already a string, there's no need to call "toString()" on it.(ÊŸ¡™ıÿÿÿÿ
