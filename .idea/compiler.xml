@@ -17,7 +17,9 @@
         <module name="MySpringBoot" />
         <module name="MyDesign" />
         <module name="HomeWork" />
+        <module name="realtime-common" />
         <module name="MySpringBoot2" />
+        <module name="MybatisPlusDemo" />
         <module name="FlinkTutorial" />
         <module name="MyDataStrunt" />
         <module name="MyEE" />

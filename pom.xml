@@ -15,6 +15,8 @@
 		<module>FlinkTutorial</module>
 		<module>algo</module>
         <module>ScalaDemo</module>
+        <module>MybatisPlusDemo</module>
+        <module>MyRealTime</module>
     </modules>
 	<name>EveryThing</name>
 	<description>我的学习文件夹</description>

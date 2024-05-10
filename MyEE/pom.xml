@@ -9,6 +9,18 @@
     <artifactId>MyEE</artifactId>
     <name>Archetype - MyEE</name>
     <url>http://maven.apache.org</url>
+    <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>32.1.2-jre</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.8.22</version>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>
