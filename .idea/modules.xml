@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MySpringBoot2/MySpringBoot2.iml" filepath="$PROJECT_DIR$/MySpringBoot2/MySpringBoot2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScalaDemo.iml" filepath="$PROJECT_DIR$/ScalaDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-test.iml" filepath="$PROJECT_DIR$/web-test.iml" />
     </modules>
   </component>
 </project>

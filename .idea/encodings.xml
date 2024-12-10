@@ -3,8 +3,12 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/FlinkTutorial/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/FlinkTutorial/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HandSpring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HandSpring/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/HomeWork/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/HomeWork/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ManagerBoot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ManagerBoot/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyDataStrunt/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyDataStrunt/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyDesign/src/main/java" charset="UTF-8" />
@@ -15,15 +19,23 @@
     <file url="file://$PROJECT_DIR$/MyRealTime/realtime-common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyRealTime/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyRealTime/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MySpring5/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MySpring5/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MySpringBoot/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MySpringBoot/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MySpringBoot2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MySpringBoot2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MySpringSecurity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MySpringSecurity/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MybatisPlusDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MybatisPlusDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Mysecurity-springmvc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Mysecurity-springmvc/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ScalaDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ScalaDemo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/algo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/algo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web-test/src/main/resources" charset="UTF-8" />
   </component>
 </project>

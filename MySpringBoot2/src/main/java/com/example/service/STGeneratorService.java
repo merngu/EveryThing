@@ -7,7 +7,7 @@ import org.thymeleaf.context.Context;
 
 import java.io.*;
 
-//@Service
+@Service
 public class STGeneratorService {
 
     public static void main(String[] args) {

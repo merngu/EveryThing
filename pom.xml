@@ -16,7 +16,12 @@
 		<module>algo</module>
         <module>ScalaDemo</module>
         <module>MybatisPlusDemo</module>
-        <module>MyRealTime</module>
+        <module>MySpring5</module>
+        <module>MySpringSecurity</module>
+        <module>Mysecurity-springmvc</module>
+        <module>web-test</module>
+        <module>ManagerBoot</module>
+        <module>HandSpring</module>
     </modules>
 	<name>EveryThing</name>
 	<description>我的学习文件夹</description>

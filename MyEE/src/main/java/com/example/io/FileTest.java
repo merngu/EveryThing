@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class FileTest {
     public static void main(String[] args) throws IOException {
-        File file = new File("/media/ubuntu/mount_disk/mycode/EveryThing/MyEE/src/main/resources/archetype-resources/test.txt");
+        File file = new File("/media/ubuntu/mycode/EveryThing/MyEE/src/main/resources/example.txt");
 
         File test = new File("/media/ubuntu/mount_disk/mycode/EveryThing/MyEE");
 
@@ -24,5 +24,8 @@ public class FileTest {
         System.out.println("获取文件长度" + file.length());
 
         System.out.println("获取最后一次修改的时间" + file.lastModified());
+
+
+        System.out.println("打印file的长度" + file.length());
     }
 }

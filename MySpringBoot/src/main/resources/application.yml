@@ -1,7 +1,9 @@
 lesson: springboot
 
+
+
 server:
-  port: 8080
+  port: 9090
 
 # 关闭运行日志图标
 spring:
@@ -11,8 +13,12 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/test?serverTimezone=UTC&useSSL=false
     username: root
-    password: 123456
+    password: root
     type: com.alibaba.druid.pool.DruidDataSource
+  mian:
+    banner-mode: off
+  banner:
+    location: classpath:/banner.txt
 
 #对象数组缩略格式
 # SpringBoot配置文件加载顺序

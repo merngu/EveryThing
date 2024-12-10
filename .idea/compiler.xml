@@ -9,29 +9,62 @@
       <directory url="file://$PROJECT_DIR$/HomeWork/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
+      <profile default="true" name="Default" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+      </profile>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MySpringBoot" />
+        <module name="MySpring5" />
+        <module name="MySpringBoot2" />
+        <module name="MySpringSecurity" />
+        <module name="Mysecurity-springmvc" />
+        <module name="FlinkTutorial" />
+        <module name="web-test" />
+        <module name="ManagerBoot" />
+        <module name="ScalaDemo" />
         <module name="MyDesign" />
         <module name="HomeWork" />
-        <module name="realtime-common" />
-        <module name="MySpringBoot2" />
         <module name="MybatisPlusDemo" />
-        <module name="FlinkTutorial" />
+        <module name="HandSpring" />
         <module name="MyDataStrunt" />
-        <module name="MyEE" />
-        <module name="ScalaDemo" />
         <module name="algo" />
       </profile>
+      <profile name="Annotation profile for MySpringBoot" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../localRepository/org/springframework/boot/spring-boot-configuration-processor/2.7.16/spring-boot-configuration-processor-2.7.16.jar" />
+          <entry name="$PROJECT_DIR$/../../localRepository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+          <entry name="$PROJECT_DIR$/../../localRepository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../localRepository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+        </processorPath>
+        <module name="MySpringBoot" />
+      </profile>
+      <profile name="Annotation profile for EveryThing" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../localRepository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../localRepository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+        </processorPath>
+        <module name="MyEE" />
+      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MyRealTime" target="1.8" />
+      <module name="realtime-common" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ManagerBoot" options="-parameters" />
       <module name="MySpringBoot" options="-parameters" />
       <module name="MySpringBoot2" options="-parameters" />
+      <module name="MySpringSecurity" options="-parameters" />
     </option>
   </component>
 </project>

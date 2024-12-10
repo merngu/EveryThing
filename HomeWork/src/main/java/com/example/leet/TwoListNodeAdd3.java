@@ -10,22 +10,16 @@ import java.util.ArrayList;
  * <author> maziyu
  */
 public class TwoListNodeAdd3 {
-    public ListNode addListNode(ListNode l1,ListNode l2){
-        ListNode dummyHead = new ListNode(0);
-        ListNode current = dummyHead;
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode headNode = new ListNode(0);
+        ListNode current = headNode;
         int carry = 0;
-
-        while (l1 !=null || l2 != null || carry!=0){
-
-           int sum = (l1 !=null ? l1.val : 0) + (l1 !=null ? l1.val : 0) + carry;
-           carry = sum/10;
-           current = new ListNode(sum%10);
-           l1 = (l1!=null) ? l1.next : null;
-           l2 = (l2!=null) ? l2.next : null;
-           current = current.next;
+        while (l1.next != null || l2.next == null || carry != 0) {
+            int sum = l1.val + l2.val + carry;
+            carry = sum / 10;
+            current = new ListNode(sum % 10);
 
         }
-
-        return dummyHead.next;
+        return current.next;
     }
 }

@@ -1,5 +1,6 @@
 package com.example.bean;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.annotation.Validated;
@@ -20,6 +21,7 @@ import java.util.Map;
 @Component
 @ConfigurationProperties(prefix = "person")
 @Validated
+@Slf4j
 public class Person {
 
     /**
@@ -34,5 +36,10 @@ public class Person {
 
     private Map<String,Object> maps;
     private List<Object> lists;
+
+    private String test(){
+        log.info("test方法执行了...");
+        return "test";
+    }
 
 }

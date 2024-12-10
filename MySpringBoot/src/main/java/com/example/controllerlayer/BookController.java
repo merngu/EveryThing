@@ -50,17 +50,20 @@ public class BookController {
 
     @GetMapping("/{word}/{id}")
     public String getById(@PathVariable("name") String word,String id){
-        log.info("SpringBoot Learn");
-        log.info(environment.getProperty("lesson"));
+//        log.info("SpringBoot Learn");
+//        log.info(environment.getProperty("lesson"));
         return "SpringBoot Learn";
     }
     @GetMapping("/{id}")
     public List<User> getById2(@PathVariable("id") String name){
-        log.info(environment.getProperty("enterprise.subject[1]"));
-        log.info(enterprise.getName());
+//        log.info(environment.getProperty("enterprise.subject[1]"));
+//        log.info(enterprise.getName());
         List<User> all = userDao.getALL();
         return all;
     }
+
+
+
 
 
 
