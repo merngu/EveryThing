@@ -1,5 +1,8 @@
 package com.example.ex;
 
+import java.sql.*;
+import java.util.*;
+
 /**
  * FileName: test
  * Author: bai
@@ -9,7 +12,25 @@ package com.example.ex;
  */
 public class test {
     public static void main(String[] args) {
-        int i = '2' * 5;
-        System.out.println(i);
+           int n = 321;
+
+           String m = String.valueOf(n);
+
+           int[] oi = new int[m.length()];
+
+        for (int i = m.length() - 1; i >= 0; i--) {
+            System.out.println(i);
+            System.out.println(m.charAt(i));
+        }
+
+
+
+
+
+//           if( n < 1<<31 && n > Math.pow(2,31) - 1){
+//               System.out.println("zero");
+//           } else {
+//
+//           }
     }
 }

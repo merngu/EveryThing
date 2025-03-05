@@ -9,6 +9,9 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Copy/pom.xml" />
+        <option value="$PROJECT_DIR$/HandSpring/pom.xml" />
+        <option value="$PROJECT_DIR$/ManagerBoot/pom.xml" />
         <option value="$PROJECT_DIR$/MyRealTime/pom.xml" />
       </set>
     </option>

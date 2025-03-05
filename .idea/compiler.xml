@@ -7,6 +7,8 @@
       <directory url="file://$PROJECT_DIR$/MyDesign/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/MyEE/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/HomeWork/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/MyDependencies/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Copy/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true">
@@ -17,17 +19,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="MySpring5" />
+        <module name="MyDependencies" />
         <module name="MySpringBoot2" />
         <module name="MySpringSecurity" />
         <module name="Mysecurity-springmvc" />
         <module name="FlinkTutorial" />
         <module name="web-test" />
-        <module name="ManagerBoot" />
         <module name="ScalaDemo" />
         <module name="MyDesign" />
         <module name="HomeWork" />
         <module name="MybatisPlusDemo" />
-        <module name="HandSpring" />
         <module name="MyDataStrunt" />
         <module name="algo" />
       </profile>
@@ -55,6 +56,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Copy" target="1.8" />
+      <module name="HandSpring" target="1.8" />
+      <module name="ManagerBoot" target="1.8" />
       <module name="MyRealTime" target="1.8" />
       <module name="realtime-common" target="1.8" />
     </bytecodeTargetLevel>

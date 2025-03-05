@@ -20,9 +20,8 @@
         <module>MySpringSecurity</module>
         <module>Mysecurity-springmvc</module>
         <module>web-test</module>
-        <module>ManagerBoot</module>
-        <module>HandSpring</module>
-    </modules>
+		<module>MyDependencies</module>
+	</modules>
 	<name>EveryThing</name>
 	<description>我的学习文件夹</description>
 	<packaging>pom</packaging>
